@@ -1,4 +1,5 @@
 #!/bin/bash 
+ls
 echo 1
 curl -LJO https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/whitesource-fs-agent.jar
 echo 2
