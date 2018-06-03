@@ -1,0 +1,4 @@
+# Batch Script
+# Run a windows cmd or bat script and optionally allow it to change the environment
+- task: BatchScript@1
+- run: bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx -c [path to config file] -project circle-ci_test -d ~/
